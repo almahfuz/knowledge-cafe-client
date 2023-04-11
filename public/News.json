@@ -1,0 +1,52 @@
+[
+    {
+      "id": "643554f9bad60cac83f25ffd",
+      "authorName": "Mendez Parrish",
+      "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz1b6b8-SGhdk0tifwTFwdLdgYe4yGLZJKrooKbsYWO2YPygcFLnU5lrcWhECp4Sau9wg&usqp=CAU",
+      "blogCoverImage": "https://c7.alamy.com/comp/2CWBHBM/front-page-of-the-daily-mail-newspaper-dated-7th-august-1945-on-the-cover-is-a-photograph-taken-after-the-bombing-of-hiroshima-2CWBHBM.jpg",
+      "BlogTitle": "559 Newkirk Placez, Bedias, Maryland, 3376",
+      "Images": "http://placehold.it/32x32",
+      "publishDate": "Nov 01",
+      "readTime" :7
+    },
+    {
+      "id": "643554f90b71f43885889d91",
+      "authorName": "Consuelo Cleveland",
+      "authorImage": "https://media.istockphoto.com/id/1154642632/photo/close-up-portrait-of-brunette-woman.jpg?b=1&s=612x612&w=0&k=20&c=7hgSq1L2mpIbpuuw00KELApMpmZfBkZ-RBxn3Qps5zQ=",
+      "blogCoverImage": "https://c7.alamy.com/comp/EM4R1B/evening-standard-newspaper-detail-of-front-cover-EM4R1B.jpg",
+      "BlogTitle": "212 Cozine Avenue, Summerset, Marshall Islands, 204",
+      "Images": "http://placehold.it/32x32",
+      "publishDate": "Mar 04",
+      "readTime" :5
+    },
+    {
+      "id": "643554f9b0073914c5a5ec68",
+      "authorName": "Danielle Fitzpatrick",
+      "authorImage": "https://img.freepik.com/free-photo/half-profile-image-handsome-young-caucasian-man-with-good-skin-brown-eyes-black-stylish-hair-stubble-posing-isolated-against-blank-wall-looking-front-him-smiling_343059-4560.jpg",
+      "blogCoverImage": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/294598226/original/4f56032c5ef05d7c7aa996c37795c862a306ccfd/make-magazine-cover-article-blog-post-newspaper-book-design-template-fast.jpg",
+      "BlogTitle": "743 Kiely Place, Rosewood, Georgia, 2431",
+      "Images": "http://placehold.it/32x32",
+      "publishDate": "Oct 07",
+      "readTime" :10
+    },
+    {
+      "id": "643554f92377def919c07642",
+      "authorName": "Bowen Bell",
+      "authorImage": "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-1.webp",
+      "blogCoverImage": "https://c7.alamy.com/comp/DE7BF6/newspaper-stand-newspaper-front-cover-headlines-plaza-morazan-tegucigalpa-DE7BF6.jpg",
+      "BlogTitle": "436 Richardson Street, Hartsville/Hartley, New Mexico, 1161",
+      "Images": "http://placehold.it/32x32",
+      "publishDate": "Mar 14",
+      "readTime" :13
+    },
+    {
+      "id": "643554f944c76046a9b5378e",
+      "authorName": "Aimee Cote",
+      "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUqpF1jDQrT6Ovn3V-2Kqn2oI1QG1Sns2Gj63-HfkLK9CS1Wx0oPqDTauveuMsPtvT1NM&usqp=CAU",
+      "blogCoverImage": "https://c7.alamy.com/comp/2JDA63Y/a-man-reading-the-front-cover-of-basingstoke-and-deane-today-local-newspaper-from-spring-2022-a-local-town-uk-newspaper-gazette-2JDA63Y.jpg",
+      "BlogTitle": "964 Harwood Place, Hoehne, Virginia, 6816",
+      "Images": "http://placehold.it/32x32",
+      "publishDate": "Nov 14",
+      "readTime" :14
+    }
+  ]
