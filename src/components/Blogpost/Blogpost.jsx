@@ -7,11 +7,13 @@ import { data } from "autoprefixer";
 
 const Blogpost = (props) => {
   const { id, authorName, blogCoverImage, publishDate, authorImage, BlogTitle,readTime
-  } =
-    props.newBlog;
+  } = props.newBlog;
 //   console.log(props);
-const AddToBookMark =props.AddToBookMark;
+ const AddToBookMark =props.AddToBookMark;
+
 const AddToTimeMark = props.AddToTimeMark;
+
+const handleToTimeMark =props.handleToTimeMark;
 
   return (
     <div>
@@ -56,7 +58,7 @@ const AddToTimeMark = props.AddToTimeMark;
               </p>
             </div>
             <p className="mt-4 text-xs">
-               <button onClick={()=>AddToTimeMark(props.AddTime)}>Mark as read</button> 
+               <button onClick={()=>handleToTimeMark(props.newBlog)}>Mark as read</button> 
             </p>
           </div>
         </div>

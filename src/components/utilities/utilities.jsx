@@ -1,14 +1,10 @@
-import React from 'react';
+const getBookMarkCart = () => {
+    let AddedBookMarkCart = {};
 
-
-const utilities = () => {
-
-
-    return (
-        <div>
-            
-        </div>
-    );
-};
-
-export default utilities;
+    //get the shopping cart from local storage
+    const storedBookMark = localStorage.getItem('BookMarkAdded');
+    if (storedBookMark) {
+        AddedBookMarkCart = JSON.parse(storedBookMark);
+    }
+    return AddedBookMarkCart;
+}

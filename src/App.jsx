@@ -6,8 +6,6 @@ import Navbar from './components/Navbar/Navbar'
 import Newsblogs from './components/Newsblogs/Newsblogs'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <div className='bg-base-300'>
