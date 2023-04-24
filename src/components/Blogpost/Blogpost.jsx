@@ -2,7 +2,6 @@ import React from "react";
 import "./Blogpost.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
-import Newssideblog from "../Newssideblog/Newssideblog";
 import { data } from "autoprefixer";
 
 const Blogpost = (props) => {
@@ -10,8 +9,6 @@ const Blogpost = (props) => {
   } = props.newBlog;
 //   console.log(props);
  const AddToBookMark =props.AddToBookMark;
-
-const AddToTimeMark = props.AddToTimeMark;
 
 const handleToTimeMark =props.handleToTimeMark;
 
@@ -57,8 +54,8 @@ const handleToTimeMark =props.handleToTimeMark;
                 <span className="font-medium text-xs">#programming</span>
               </p>
             </div>
-            <p className="mt-4 text-xs">
-               <button onClick={()=>handleToTimeMark(props.newBlog)}>Mark as read</button> 
+            <p className="mt-4 text-xs ">
+               <button className=" hover:bg-slate-100 p-2 rounded-lg "  onClick={()=>handleToTimeMark(props.newBlog)}>Mark as read</button> 
             </p>
           </div>
         </div>
