@@ -5,12 +5,18 @@ import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import { data } from "autoprefixer";
 
 const Blogpost = (props) => {
-  const { id, authorName, blogCoverImage, publishDate, authorImage, BlogTitle,readTime
+  const {
+    id,
+    authorName,
+    blogCoverImage,
+    publishDate,
+    authorImage,
+    BlogTitle,
+    readTime,
   } = props.newBlog;
-//   console.log(props);
- const AddToBookMark =props.AddToBookMark;
-
-const handleToTimeMark =props.handleToTimeMark;
+  //   console.log(props);
+  const AddToBookMark = props.AddToBookMark;
+  const handleToTimeMark = props.handleToTimeMark;
 
   return (
     <div>
@@ -36,32 +42,35 @@ const handleToTimeMark =props.handleToTimeMark;
             </div>
             <div>
               <p className="font-light text-xs">
-                {readTime} min read <button onClick={() => AddToBookMark(props.newBlog)}> <FontAwesomeIcon icon={faBookmark} /> </button> 
+                {readTime} min read{" "}
+                <button onClick={() => AddToBookMark(props.newBlog)}>
+                  {" "}
+                  <FontAwesomeIcon icon={faBookmark} />{" "}
+                </button>
               </p>
             </div>
           </div>
 
           <div className="px-5 py-2">
-            <div className=" h-[8rem]  max-h-[12rem]">
-              <p className="text-2xl font-bold leading-6">
-                {BlogTitle}
-              </p>
+            <div className=" h-[5rem]  max-h-[6rem]">
+              <p className="text-2xl font-bold leading-6">{BlogTitle}</p>
             </div>
             <div className="tag-className">
               <p>
-               
                 <span className="font-medium text-xs">#beginners</span>
                 <span className="font-medium text-xs">#programming</span>
               </p>
             </div>
             <p className="mt-4 text-xs ">
-               <button className=" hover:bg-slate-100 p-2 rounded-lg "  onClick={()=>handleToTimeMark(props.newBlog)}>Mark as read</button> 
+              <button
+                className=" hover:bg-slate-100 p-2 rounded-lg "
+                onClick={() => handleToTimeMark(props.newBlog)}
+              >
+                Mark as read
+              </button>
             </p>
           </div>
         </div>
-
-        
-        
       </div>
     </div>
   );
