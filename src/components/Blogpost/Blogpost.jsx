@@ -20,7 +20,7 @@ const Blogpost = (props) => {
 
   return (
     <div>
-      <div className="flex justify-around flex-wrap ">
+      <div className="flex items-center justify-around flex-wrap ">
         <div className="mt-4 w-full bg-white  shadow-md overflow-hidden md:max-w-2xl">
           <div className="bg-sky-300">
             <img

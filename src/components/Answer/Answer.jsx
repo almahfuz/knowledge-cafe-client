@@ -5,7 +5,7 @@ const Answer = () => {
     <div>
       <div className=" p-3 bg-white rounded-xl mt-2">
         <div className="text-sm">
-          <div className="bg-slate-200 text-sm p-6 w-11/12 border m-4 rounded-xl">
+          <div className="bg-slate-200 text-sm p-6 w-fit border m-4 rounded-xl">
             <span className="font-semibold">
               Question: Difference between Props vs States?
             </span>
