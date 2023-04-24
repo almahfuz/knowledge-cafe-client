@@ -5,6 +5,7 @@ import './App.css'
 import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Navbar/Navbar'
 import Newsblogs from './components/Newsblogs/Newsblogs'
+import Answer from './components/Answer/Answer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Newsblogs></Newsblogs>
 
       <Toaster />
+      <Answer></Answer>
     </div>
   )
 }
