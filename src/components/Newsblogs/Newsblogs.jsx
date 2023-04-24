@@ -36,7 +36,7 @@ const Newsblogs = () => {
       // );
 
     }
-
+    
     //   if (!checkDoubleBookMark) {
     //     setBookMarkCart([...BookMarkCart, AddToBookMarkBlog]);
     //   } else {
